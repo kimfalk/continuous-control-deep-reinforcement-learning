@@ -38,6 +38,9 @@ LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
 ```
 
+## Further work
+
+There are many ways you could improve on this. I believe that the solution that I have is pretty good. But I would have liked to test out other algorithms and see if I could have done it even better, the first would be PPO as I like its simplicity. Staying with the DDPG, I would start out focusing on how the noise is applied to the actions. It could be interesting to see if it would be worth adding decay to the noise, or something like momentum which could be tied to the reward.  
 
 [1 - Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
 [2 - Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf)
